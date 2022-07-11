@@ -1,0 +1,12 @@
+{
+  "name": "listtodo",
+  "version": "1.0.0",
+  "description": "list of tasks that I have been doing for quite some time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cesar Mejias <cesarfar376@gmail.com>",
+  "license": "ISC"
+}
