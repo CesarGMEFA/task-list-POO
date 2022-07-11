@@ -28,8 +28,7 @@ export class Todo {
 	
 
 	addTodo() {
-		const lista = document.getElementById("lista");
-		this.ID()
+		const list = document.getElementById("lista");
 		const sectionContainer = document.createElement("section");
 		sectionContainer.setAttribute('id', `${this.ID()}`);
 		sectionContainer.classList.add("lista--edit");
@@ -76,9 +75,10 @@ export class Todo {
     divButtons.appendChild(buttonTrash);
 
 		sectionContainer.appendChild(sectionEdit);
-		lista.appendChild(sectionContainer);
+		list.appendChild(sectionContainer);
 
 		if (this.Data != undefined) this.Data.keep(this.ID(), this.title, this.description, this.completed);
     
+		location.reload()
 	};
 };

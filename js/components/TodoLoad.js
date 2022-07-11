@@ -16,7 +16,7 @@ export class TodoLoad {
 	}
 	
 	addTodo() {
-		const lista = document.getElementById("lista");
+		const list = document.getElementById("lista");
 		const sectionContainer = document.createElement("section");
 		sectionContainer.setAttribute('id', `${this.ID}`);
 		sectionContainer.classList.add("lista--edit");
@@ -65,7 +65,7 @@ export class TodoLoad {
     divButtons.appendChild(buttonTrash);
 
 		sectionContainer.appendChild(sectionEdit);
-		lista.appendChild(sectionContainer);
+		list.appendChild(sectionContainer);
 
 	};
 };

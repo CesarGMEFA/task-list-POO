@@ -19,7 +19,7 @@ export class Utils {
     this.Data.storage(save);
     const selectedTodo = document.getElementById(`${ID}`)
     selectedTodo.remove();
-    
+    location.reload();
   };
 
   keepChenges(ID, title, description, completed) {

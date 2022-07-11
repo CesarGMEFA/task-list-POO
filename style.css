@@ -101,6 +101,17 @@ html {
 	border: 2px solid rgb(1, 141, 255);
 	border-radius: 5px;
 }
+
+.Empty {
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 .lista--edit_titulo {
 	font-size: 1.6rem;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.6);
@@ -201,3 +212,4 @@ html {
 .modal--input_alert {
 	border: 3px solid rgb(253, 31, 31);
 }
+
